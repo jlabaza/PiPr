@@ -1,4 +1,7 @@
 {
-    "board": "esp32:esp32:esp32da",
-    "port": "COM3"
+    "sketch": "Pitot_Project\\sw\\shiftRegDev.ino",
+    "configuration": "PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,LoopCore=1,EventsCore=1,DebugLevel=none,EraseFlash=none",
+    "board": "arduino:avr:uno",
+    "programmer": "esptool",
+    "port": "COM4"
 }
